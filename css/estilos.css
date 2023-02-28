@@ -1,0 +1,54 @@
+* {
+    color:blue
+}
+
+p, span {
+    color: red;
+    width: 300px;
+  }
+  /**
+Esto es un comentario dentro de un documento de CSS. Se puede usar 
+margin  o margin-top, left, etc, igual con el padding; 
+o border o tapping con los valores x x x x (top bottom left right)
+el asterisco del renglon 1 hace que aplique el valor a todos los 
+elementos (salvo que tengan especificado otro color, como el renglon 5
+Es mejor usar class y ID (a ID se refiere con # mas el nombre 
+y a class con un . mas el nombre) antes que p de renglon 5 para mas 
+especificidad
+  */
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    border: 1PX SOLID BLACK;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+      font-weight: bold;
+      color:grey
+  }
+  Section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  #mi_parrafo {
+    color:yellow;
+    font-size: 23px;
+    border: 1px solid orange;
+
+  }
+
+  .estaesmiclase {
+    font-weight: bold;
+    color: lightblue;
+}
+/* section h1 {
+font-weight: 100px;
+}
+*/
